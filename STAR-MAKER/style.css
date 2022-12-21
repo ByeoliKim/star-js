@@ -1,0 +1,2 @@
+body { display:flex; justify-content:center; align-items:center; background-color:#fff; }
+canvas { width:800px; height:800px; border:5px solid #000; }
