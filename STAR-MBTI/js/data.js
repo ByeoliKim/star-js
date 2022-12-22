@@ -82,7 +82,7 @@ export const questions = [
 ]
 export const results = [
   {
-    title: '출근 시간은<br>내가 정해!',
+    title: '출근 시간은 내가 정해!',
     character: '/img/result_character1.png',
     results: [
       '혼자서 멘탈 케어가 가능해요!<br>소속이 없어도, 벌이가 불안정해도 저는 지금이 좋아요!',
@@ -93,7 +93,7 @@ export const results = [
     jobs: ['프리랜서', '창업가'],
   },
   {
-    title: '프로직진러!<br>진행력 갑',
+    title: '프로직진러! 진행력 갑',
     character: '/img/result_character2.png',
     results: [
       '나는야 회사 사람들 멘탈 지킴이!<br>언제나 토닥토닥 으샤으샤 응원하며 다니는 파워 인싸!',
@@ -104,7 +104,7 @@ export const results = [
     jobs: ['마케터', '기획자'],
   },
   {
-    title: '우리 무기는<br>상상력!',
+    title: '우리 무기는 상상력!',
     character: '/img/result_character3.png',
     results: [
       '이것저것 관심이 많은 편이에요.<br>모든 게 궁금해요!',
@@ -115,7 +115,7 @@ export const results = [
     jobs: ['디자이너', '예술가'],
   },
   {
-    title: '인생은<br>한방!',
+    title: '인생은 한방!',
     character: '/img/result_character4.png',
     results: [
       '전략적으로 계획을 세우는 걸 좋아해요!',
@@ -123,10 +123,10 @@ export const results = [
       '꿈이 커요!<br>크게 성공할 수 있는 한 방을 이뤄낼 거예요~',
       '일할 땐 일하고! 놀 땐 놀고!<br>뭐든 확실한 게 좋아요.'
     ],
-    jobs: ['부동산<br>투자자', '주식<br>투자자'],
+    jobs: ['부동산 투자자', '주식 투자자'],
   },
   {
-    title: '한 번 집중하면<br>멈출 수 없지!',
+    title: '한 번 집중하면 멈출 수 없지!',
     character: '/img/result_character5.png',
     results: [
       '저는 위선과 가식이 없어요.<br>진실만 말하죠. (진지)',
@@ -137,7 +137,7 @@ export const results = [
     jobs: ['개발자', '데이터분석가'],
   },
   {
-    title: '인생 욜로지~<br>일단 놀자 ><',
+    title: '인생 욜로지~ 일단 놀자 ><',
     character: '/img/result_character6.png',
     results: [
       '취미가 100개!<br>이것저것 다재다능해요~',

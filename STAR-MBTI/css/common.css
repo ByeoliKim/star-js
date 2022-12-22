@@ -16,12 +16,18 @@ body,
 button { width:300px; height:70px; margin:0 0 20px; border:5px solid #fff; border-radius: 30px; font-size:24px; font-weight:600; letter-spacing: -2px; cursor: pointer; }
 .btn { background-color: rgb(245 236 155); }
 .shareBtn { background-color:rgb(129 205 243); }
-.pTitle { padding:10px 0; text-align: center; font-size:18px; }
 
 /* question */
 .progress { width:500px; height:20px; margin:0 auto 50px; border-radius: 10px; background-color:#fff; }
-.progress .value { width:10%; height:20px; border-radius: 10px; background-color: rgb(245 236 155); transition:0.3s; }
+.progress .value { width:10%; height:20px; border-radius: 10px; background-color: rgb(255 213 36); transition:0.3s; }
 .questionsBox { display: flex; flex-direction: column; justify-content: center; align-items: center; padding:80px; box-shadow:0 4px 25px #dde2e8; border-radius: 20px; background:#fff; }
-.questionsBox .choice { display: flex; align-items: center; justify-content: center; text-align: center; width:300px; height:70px; margin:0 0 20px; border:1px solid #ddd; background-color: #ededed; cursor: pointer; }
 .questionsBox .number { margin: 0 0 30px; color:#000; font-size:60px; font-weight:900; }
-.questionsBox .question { margin: 0 0 40px; font-size:24px; font-weight:300; letter-spacing: -1px; }
+.questionsBox .question { line-height:1.4; margin: 0 0 40px; font-size:24px; font-weight:300; text-align: center; letter-spacing: -1px; }
+.questionsBox .choice { display: flex; align-items: center; justify-content: center; width:400px; height:80px; line-height:1.4; margin:0 0 20px; border:1px solid #ddd; background-color: #ededed; font-size:20px; font-weight:500; text-align: center; letter-spacing: -1px; cursor: pointer; }
+
+/* result */
+.reTitle h3 { line-height: 1.1; font-size:40px; font-weight:900; text-align: center; }
+.pTitle { padding:20px 0; font-size:24px; font-weight:500; text-align: center; }
+.character { width:200px; }
+.resultWrap { display:flex; justify-content: space-between; align-items: center; margin:40px 0; }
+.result { line-height: 1.4; margin: 0 10px; padding: 20px; border-radius: 24px; background:#fff; text-align: center; }
