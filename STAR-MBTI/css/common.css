@@ -1,0 +1,25 @@
+body,
+* {
+    word-break: break-all;
+    font-family: "Pretendard Variable", sans-serif;
+}
+.container { display: flex; flex-direction: column; justify-content: center; align-items: center; height:100vh; }
+.container.main { background:url("../img/main_bg.jpg") no-repeat center; background-size: cover; }
+.container.sub { background:url("../img/questions_bg.jpg") no-repeat center; background-size: cover; }
+.title { margin: 0 0 40px; }
+.boxTitle { position: relative; display: inline-block; }
+.boxTitle h2::before { position:absolute; left:0; bottom: 0; width:100%; height:10px; background-color: #ffe5e8; content: ''; }
+.boxTitle h2 span { position:relative; color: #ff6177; font-size: 24px; font-weight: 500; }
+.mainTitle h3 { line-height: 1.1; font-size:64px; font-weight:900; text-align: center; }
+.mainImg { margin:0 0 40px; }
+button { width:300px; height:70px; margin:0 0 20px; border:5px solid #fff; border-radius: 30px; font-size:24px; font-weight:600; letter-spacing: -2px; cursor: pointer; }
+.btn { background-color: rgb(245 236 155); }
+.shareBtn { background-color:rgb(129 205 243); }
+
+/* question */
+.progress { width:500px; height:20px; margin:0 auto 50px; border-radius: 10px; background-color:#fff; }
+.progress .value { width:10%; height:20px; border-radius: 10px; background-color: rgb(245 236 155); transition:0.3s; }
+.questionsBox { display: flex; flex-direction: column; justify-content: center; align-items: center; padding:80px; box-shadow:0 4px 25px #dde2e8; border-radius: 20px; background:#fff; }
+.questionsBox .choice { display: flex; align-items: center; justify-content: center; text-align: center; width:300px; height:70px; margin:0 0 20px; border:1px solid #ddd; background-color: #ededed; }
+.questionsBox .number { margin: 0 0 30px; color:#000; font-size:60px; font-weight:900; }
+.questionsBox .question { margin: 0 0 40px; font-size:24px; font-weight:300; letter-spacing: -1px; }
