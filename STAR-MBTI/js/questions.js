@@ -9,15 +9,16 @@ const choice2El = document.querySelector('.choice2');
 let currentNumber = 0 // 현재 질문 번호
 let mbti = '' // MBTI 결과
 
-// 화면에 질문을 랜더링하는 함수에요!
-function renderQuestion() {
-  const question = questions[currentNumber]
+// 화면에 질문을 랜더링하는 함수
+const renderQuestion = () => {
+  const question = questions[currentNumber] //data.js 에서 가져온 배열 데이터
   questionEl.innerHTML = question.question
   numberEl.innerHTML = question.number
   choice1El.innerHTML = question.choices[0].text
   choice2El.innerHTML = question.choices[1].text
   progressValueEl.style.width = (currentNumber + 1) * 10 + '%'
 }
+
 // 다음 질문으로 넘어가는 함수에요!
 function nextQuestion(choiceNumber) {
   // 더 이상 질문이 없으면, 결과 페이지를 보여줘요!
