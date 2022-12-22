@@ -6,6 +6,7 @@ body,
 .container { display: flex; flex-direction: column; justify-content: center; align-items: center; height:100vh; }
 .container.main { background:url("../img/main_bg.jpg") no-repeat center; background-size: cover; }
 .container.sub { background:url("../img/questions_bg.jpg") no-repeat center; background-size: cover; }
+.container.re { background:url("../img/result_bg.jpg") no-repeat center; background-size: cover; }
 .title { margin: 0 0 40px; }
 .boxTitle { position: relative; display: inline-block; }
 .boxTitle h2::before { position:absolute; left:0; bottom: 0; width:100%; height:10px; background-color: #ffe5e8; content: ''; }
@@ -15,6 +16,7 @@ body,
 button { width:300px; height:70px; margin:0 0 20px; border:5px solid #fff; border-radius: 30px; font-size:24px; font-weight:600; letter-spacing: -2px; cursor: pointer; }
 .btn { background-color: rgb(245 236 155); }
 .shareBtn { background-color:rgb(129 205 243); }
+.pTitle { padding:10px 0; text-align: center; font-size:18px; }
 
 /* question */
 .progress { width:500px; height:20px; margin:0 auto 50px; border-radius: 10px; background-color:#fff; }
