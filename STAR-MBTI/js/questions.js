@@ -35,7 +35,7 @@ const showResultPage = () => {
   location.href = '/results.html?mbti=' + mbti;
 }
 
-// '답변1' 혹은 '답변2'를 클릭했을 때 동작하는 코드에요!
+// '답변1' 혹은 '답변2'를 클릭했을 때 동작하는 코드
 choice1El.addEventListener('click', () => { nextQuestion(0) });
 choice2El.addEventListener('click', () => { nextQuestion(1) });
 
