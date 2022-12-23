@@ -21,18 +21,17 @@ const renderQuestion = () => {
 
 // 다음 질문으로 넘어가는 함수
 const nextQuestion = (choiceNumber) => {
+  const showResultPage = () => {
+    location.href = '/results.html?mbti=' + mbti; // 쿼리 스트링 방식을 사용하여 결과 페이지로 이동
+  }
   // 더 이상 질문이 없으면, 결과 페이지를 보여줌
   if (currentNumber === questions.length - 1) {
     return showResultPage();
   }
   const question = questions[currentNumber];
-  mbti = mbti + question.choices[choiceNumber].value;
+  mbti = mbti + question.choices[choiceNumber].value; // mbti 변수에 선택한 값들을 할당한다
   currentNumber = currentNumber + 1;
   renderQuestion();
-}
-// 결과 페이지로 이동
-const showResultPage = () => {
-  location.href = '/results.html?mbti=' + mbti;
 }
 
 // '답변1' 혹은 '답변2'를 클릭했을 때 동작하는 코드
