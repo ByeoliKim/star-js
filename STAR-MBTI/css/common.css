@@ -3,9 +3,9 @@ body,
     word-break: break-all;
     font-family: "Pretendard Variable", sans-serif;
 }
-.container { display: flex; flex-direction: column; justify-content: center; align-items: center; height:100vh; }
-.container.main { background:url("../img/main_bg.jpg") no-repeat center; background-size: cover; }
-.container.sub { background:url("../img/questions_bg.jpg") no-repeat center; background-size: cover; }
+.container { display: flex; flex-direction: column; justify-content: center; align-items: center; padding:40px 0; }
+.container.main { height:100vh; padding:0; background:url("../img/main_bg.jpg") no-repeat center; background-size: cover; }
+.container.sub { height:100vh; padding:0; background:url("../img/questions_bg.jpg") no-repeat center; background-size: cover; }
 .container.re { background:url("../img/result_bg.jpg") no-repeat center; background-size: cover; }
 .title { margin: 0 0 40px; }
 .boxTitle { position: relative; display: inline-block; }
@@ -27,7 +27,9 @@ button { width:300px; height:70px; margin:0 0 20px; border:5px solid #fff; borde
 
 /* result */
 .reTitle h3 { line-height: 1.1; font-size:40px; font-weight:900; text-align: center; }
-.pTitle { padding:20px 0; font-size:24px; font-weight:500; text-align: center; }
-.character { width:200px; }
-.resultWrap { display:flex; justify-content: space-between; align-items: center; margin:40px 0; }
-.result { line-height: 1.4; margin: 0 10px; padding: 20px; border-radius: 24px; background:#fff; text-align: center; }
+.pTitle { padding:20px 0; color:#1e9b7d; font-size:24px; font-weight:700; text-align: center; }
+.resultWrap .result { margin:20px 0; }
+.resultWrap .result .box { line-height:1.6; margin:0 0 10px; padding: 20px; border-radius: 24px; background:#fff; font-size:20px; font-weight:500; text-align: center; letter-spacing: -1.5px; }
+.resultWrap .result h3 { padding:0 0 20px; font-size:20px; text-align: center; }
+.resultWrap .result .jobs { display: flex; justify-content: space-evenly; }
+.resultWrap .result .job { flex:1; margin:0 5px; padding:30px; border:1px solid #fffacd; border-radius:10px; background:#fff url("../img/result_star.png") center no-repeat; background-size:64px; text-align: center; }
