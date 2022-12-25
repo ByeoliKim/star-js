@@ -7,35 +7,38 @@
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="내숨캐" />
-  <meta property="og:title" content="내 안에 숨어있는 직업캐 찾기!" />
-  <meta property="og:description" content="누구나 찰떡인 직업이 있어요! 내 안에 숨어있는 직업캐를 찾아보세요!" />
+  <meta property="og:site_name" content="내숨농" />
+  <meta property="og:title" content="내 안에 숨어있는 농담곰 찾기!" />
+  <meta property="og:description" content="나는 어떤 농담곰일까?" />
   <meta property="og:image" content="/images/thumbnail.jpg" />
+  <meta property="twitter:url" content="https://prismatic-monstera-4c9d6a.netlify.app/" />
 
   <!-- Twitter Cards -->
   <meta property="twitter:card" content="summary" />
-  <meta property="twitter:site" content="내숨캐" />
+  <meta property="twitter:site" content="내숨농" />
   <meta property="twitter:title" content="내 안에 숨어있는 직업캐 찾기!" />
-  <meta property="twitter:description" content="누구나 찰떡인 직업이 있어요! 내 안에 숨어있는 직업캐를 찾아보세요!" />
+  <meta property="twitter:description" content="나는 어떤 농담곰일까?" />
   <meta property="twitter:image" content="/images/thumbnail.jpg" />
   <meta property="twitter:url" content="https://prismatic-monstera-4c9d6a.netlify.app/" />
 
-  <title>내 안에 숨어있는 직업캐 찾기!</title>
+  <title>내 안에 숨어있는 농담곰 찾기!</title>
 
   <link rel="icon" href="favicon.png">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
-  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css" />
+  <link href="https://webfontworld.github.io/SCoreDream/SCoreDream.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/common.css">
-  <link rel="stylesheet" href="./css/results.css">
   <script defer src="./js/share.js"></script>
   <script type="module" defer src="./js/results.js"></script>
 </head>
 <body>
   <div class="container re">
     <div class="reTitle">
-      <h3>내 본캐는?!</h3>
+      <h3>나는 어떤 농담곰일까?</h3>
     </div>
-    <h4 class="pTitle"></h4>
+    <div class="titleWrap">
+      <h4 class="pTitle"></h4>
+      <!-- <em class="mbtiTitle"></em> -->
+    </div>
     <img src="" alt="캐릭터" class="character">
     <div class="resultWrap">
       <div class="result">
@@ -45,19 +48,15 @@
         <div class="box"></div>
       </div>
       <div class="result">
-        <h3>이런 내가 직업을 갖는다면?</h3>
+        <h3>농담곰이 만족하는 직업 환경</h3>
         <div class="jobs">
           <div class="job"></div>
           <div class="job"></div>
         </div>
       </div>
     </div>
-    <button class="btn btn-green btn-small shareBtn">
-      결과 공유하기
-    </button>
-    <button onclick="location.href='/'" class="btn btn-gray btn-small">
-      다시 테스트하기
-    </button>
+    <button class="btn btn-green btn-small shareBtn">결과 공유하기</button>
+    <button onclick="location.href='/'" class="btn btn-gray btn-small">다시 테스트 하기</button>
   </div>
 </body>
 </html>
