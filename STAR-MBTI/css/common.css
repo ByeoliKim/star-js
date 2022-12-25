@@ -1,7 +1,7 @@
 body,
 * {
     word-break: break-all;
-    font-family: "Pretendard Variable", sans-serif;
+    font-family: "SCoreDream", sans-serif;
 }
 .container { display: flex; flex-direction: column; justify-content: center; align-items: center; padding:40px 0; }
 .container.main { height:100vh; padding:0; background:url("../img/main_bg.jpg") no-repeat center; background-size: cover; }
@@ -23,13 +23,37 @@ button { width:300px; height:70px; margin:0 0 20px; border:5px solid #fff; borde
 .questionsBox { display: flex; flex-direction: column; justify-content: center; align-items: center; padding:80px; box-shadow:0 4px 25px #dde2e8; border-radius: 20px; background:#fff; }
 .questionsBox .number { margin: 0 0 30px; color:#000; font-size:60px; font-weight:900; }
 .questionsBox .question { line-height:1.4; margin: 0 0 40px; font-size:24px; font-weight:300; text-align: center; letter-spacing: -1px; }
-.questionsBox .choice { display: flex; align-items: center; justify-content: center; width:400px; height:80px; line-height:1.4; margin:0 0 20px; border:1px solid #ddd; background-color: #ededed; font-size:20px; font-weight:500; text-align: center; letter-spacing: -1px; cursor: pointer; }
+.questionsBox .choice { display: flex; align-items: center; justify-content: center; width:400px; height:80px; line-height:1.4; margin:0 0 20px; padding:16px 12px; border:1px solid #ddd; background-color: #ededed; font-size:20px; font-weight:500; text-align: center; letter-spacing: -1px; cursor: pointer; }
 
 /* result */
-.reTitle h3 { line-height: 1.1; font-size:40px; font-weight:900; text-align: center; }
-.pTitle { padding:20px 0; color:#1e9b7d; font-size:24px; font-weight:700; text-align: center; }
+.reTitle h3 { line-height: 1.1; font-size:26px; font-weight:900; text-align: center; }
+.titleWrap { display:flex; align-items: center; }
+.pTitle { margin:0 10px 0 0; padding:20px 0; color:#385f87; font-size:32px; font-weight:900; text-align: center; letter-spacing:-1.5px; }
+.mbtiTitle { font-size:24px; font-weight:900; text-transform: uppercase; }
 .resultWrap .result { margin:20px 0; }
-.resultWrap .result .box { line-height:1.6; margin:0 0 10px; padding: 20px; border-radius: 24px; background:#fff; font-size:20px; font-weight:500; text-align: center; letter-spacing: -1.5px; }
+.resultWrap .result .box { line-height:1.6; margin:0 0 10px; padding: 20px 70px; border-radius: 24px; background:#fff; font-size:20px; font-weight:500; text-align: center; letter-spacing: -1.5px; }
 .resultWrap .result h3 { padding:0 0 20px; font-size:20px; text-align: center; }
 .resultWrap .result .jobs { display: flex; justify-content: space-evenly; }
-.resultWrap .result .job { flex:1; margin:0 5px; padding:30px; border:1px solid #fffacd; border-radius:10px; background:#fff url("../img/result_star.png") center no-repeat; background-size:64px; text-align: center; }
+.resultWrap .result .job { flex:1; margin:0 5px; padding:30px; border:1px solid #fffacd; border-radius:10px; background:#fff url("../img/result_star.png") center no-repeat; background-size:64px; font-weight:500; text-align: center; }
+
+@media (max-width: 640px) {
+    /* 모바일 */
+    .mainTitle h3 { font-size:40px }
+    .container.sub { height:100vh; margin:20px; padding:0; background:none; }
+
+    /* 질문 */
+    .progress { width:100%; margin: 0 auto 20px; background:#d1e2f3; }
+    .questionsBox { padding:20px; box-shadow:none; border-radius:0;}
+    .questionsBox .question { margin: 0 0 26px; font-size:16px; font-weight:500; }
+    .questionsBox .choice { width:100%; font-size:14px; }
+
+    /* 결과 */
+    .reTitle h3 { font-size:20px; }
+    .pTitle { font-size:26px; }
+    .resultWrap { margin:0 20px; }
+    .resultWrap .result { margin:0; }
+    .resultWrap .result h3 { padding:10px 0 20px; }
+    .resultWrap .result .box { padding:10px 70px; font-size:15px; }
+    .resultWrap .result .jobs { margin:0 0 26px; }
+    .resultWrap .result .job { display: flex; align-items: center; justify-content: center; }
+}
