@@ -13,7 +13,7 @@ body,
 .boxTitle h2 span { position:relative; color: #ff6177; font-size: 24px; font-weight: 500; }
 .mainTitle h3 { line-height: 1.1; font-size:64px; font-weight:900; text-align: center; }
 .mainImg { margin:0 0 40px; }
-button { width:300px; height:70px; margin:0 0 20px; border:5px solid #fff; border-radius: 30px; font-size:24px; font-weight:600; letter-spacing: -2px; cursor: pointer; }
+button { width:300px; height:70px; margin:0 0 20px; border:5px solid #fff; border-radius: 30px;color:#000; font-size:24px; font-weight:600; letter-spacing: -2px; cursor: pointer; }
 .btn { background-color: rgb(245 236 155); }
 .shareBtn { background-color:rgb(129 205 243); }
 
