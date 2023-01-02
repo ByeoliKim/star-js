@@ -25,3 +25,4 @@ ctx.lineTo(100, 150);
 ctx.lineTo(100, 100);
 ctx.strokeStyle = "#7c85e3";
 ctx.stroke();
+ctx.fillRect(200, 200, 50);
